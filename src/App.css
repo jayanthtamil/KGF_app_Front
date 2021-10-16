@@ -1,0 +1,46 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');  */
+
+
+.slider .slick-next{
+  right: 15px;
+  z-index:1;
+}
+.slider .slick-prev{
+   left: 0px;
+   z-index:1;
+ }
+ .slider .slick-prev::before{
+  font-size: 35px;
+  color:black;
+  background-color: #fff;
+  border-radius: 50%;
+ }
+ 
+.slider .slick-next:before{
+  font-size: 35px;
+  color:black;
+  background-color: #fff;
+  border-radius: 50%;
+ }
+/*above are represt slider*/
+.sample{
+  box-shadow: 2px 2px  20px 5px red;
+}
+/*Header */
+
+
+.Link:focus {
+  color: #D4AF37;
+}
+.hero img{
+  height: 550px;
+  width: 1500px;
+}
+@media only screen and (max-width: 700px) {
+  .hero img{
+    height: auto;
+    width: auto;
+  } 
+}
+
+ 
